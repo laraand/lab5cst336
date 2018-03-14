@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -22,7 +21,7 @@
                         <li><a href='index.php'>Home</a></li>
                         <li><a href='scart.php'>
                         <span class='glyphicon glyphicon-shopping-cart' aria-hidden='true'>
-                        </span> Cart:  </a></li>
+                        </span> Cart: 0 </a></li>
                     </ul>
                 </div>
             </nav>

@@ -15,7 +15,8 @@ function displayResults(){
             echo "<td><img src= '$itemImage'></td>";
             echo "<td><h4>$itemName</h4></td>";
             echo "<td><h4>$itemPrice</h4></td>";
-            
+           
+           
             
             //hidden input element containing the item name
             echo "<form method='post'>";
@@ -23,17 +24,19 @@ function displayResults(){
             echo "<input type='hidden' name='itemId' value='$itemId'>";
             echo "<input type='hidden' name='itemImage' value='$itemImage'>";
             echo "<input type='hidden' name='itemPrice' value='$itemPrice'>";
-            echo "<td><button class='btn btn-warning'>Add</button></td>";
-            echo "</form>";
+            
+            
             
             if($_POST['itemId'] == $itemId){
-                echo '<td><button class="btn btn-success">Added</button></td>';
-            }else{
+                    echo '<td><button class="btn btn-success">Added</button></td>';
+            }
+            else{
                 echo '<td><button class="btn btn-warning">Add</button><td>';
             }
+            echo "</form>"; 
           
         }
-    
+        
             
         
         echo "</table>";

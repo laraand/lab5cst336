@@ -35,7 +35,7 @@
                             <li><a href='index.php'>Home</a></li>
                             <li><a href='scart.php'>
                             <span class='glyphicon glyphicon-shopping-cart' aria-hidden='true'>
-                            </span> Cart: <?php displaycartcount(); ?> </a></li>
+                            </span> Cart: <?php displayCartCount(); ?> </a></li>
                         </ul>
                     </div>
                 </nav>
